@@ -10,10 +10,9 @@ To ensure he has the highest chance of success, he wants to find out which New Y
 Data:
 
 In order to execute this plan, we need to have the number of pharmacies in each borough and the population of each borough. 
-The number of pharmacy in each borough can be obtained using FourSquare location. Foursquare has a database with locations of different venues which can be extracted and grouped by borough.
+The number of pharmacy in each borough can be obtained using FourSquare location. Foursquare has a database with locations of different venues. Venues with a pharmacy category can be extracted through their API and then grouped by borough. 
 
 The population in each borough can be obtained from the US Census Bureau. The latest data is from 1st July 2019. 
 The US Census Bureau is the most ideal source as it is from the government. 
 
-There are 5 boroughs in total. They are Bronx, Brooklyn, Queens, Manhattan and Staten island. 
 
